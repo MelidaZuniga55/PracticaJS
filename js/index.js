@@ -5,5 +5,5 @@ function calcular() {
 
     var total = parseFloat (numero1.value) + parseFloat (numero2.value);
 
-    document.getElementById("txtResultado").value = total.toFixed(2);
+    document.getElementById("txtResultado").value = total;
 }
